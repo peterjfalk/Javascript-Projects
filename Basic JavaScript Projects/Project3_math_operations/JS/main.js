@@ -30,12 +30,16 @@ function remainderMath() {                                              //Define
 
 function increaseMath() {                                               //Define function
     var increase = 8;                                                   //Define variable
-    increase++                                                          //Increase variable number
+    increase++;                                                         //Increase variable number
     document.getElementById("Math7").innerHTML = "If we take 8 up by one step, we get " + increase; //Display math operation
 }
 
 function decreaseMath() {                                               //Define function
     var reduce = 6;                                                     //Define variable
-    reduce--                                                            //Reduce variable number
+    reduce--;                                                           //Reduce variable number
     document.getElementById("Math8").innerHTML = "If we take 6 down by one step, we get " + reduce; //Display math operation
+}
+
+function randomMath() {
+    document.getElementById("Math9").innerHTML = Math.random() * 300
 }
